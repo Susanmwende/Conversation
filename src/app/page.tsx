@@ -3,8 +3,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { useState } from 'react';
-import { Picker } from 'emoji-mart';
-import 'emoji-mart/css/emoji-mart.css'; // Updated import path for emoji-mart CSS
+// import { Picker } from 'emoji-mart';
+// import 'emoji-mart/css/emoji-mart.css'; // Updated import path for emoji-mart CSS
 
 export default function Home() {
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
